@@ -1,3 +1,19 @@
+:root {
+  --primary-color: #357b70;
+  --link-visited-color: #05676e;
+  --link-active-color: #489c79;
+  --text-color: #fff;
+  --grid-background-color: #d3d3d3;
+  --color-change-0: #b8d2ef;
+  --color-change-50: #fcffad;
+  --color-change-100: #f76414;
+  --color-change2-0: #fbff99;
+  --color-change2-50: #f6a522;
+  --color-change2-100: #b8d2ef;
+  --font-weight-header: 700;
+  --max-width: 700px;
+}
+
 body {
   font-family: 'Mukta', sans-serif;
   font-weight: 400;
@@ -11,26 +27,26 @@ body {
 
 h1 {
   font-size: 30px;
-  font-weight: 700;
+  font-weight: var(--font-weight-header);
 }
 
 h2 {
   font-size: 24px;
-  font-weight: 700;
+  font-weight: var(--font-weight-header);
 }
 
 h3 {
   font-size: 18px;
-  font-weight: 700;
+  font-weight: var(--font-weight-header);
 }
 
 a {
-  color: #357b70;
+  color: var(--primary-color);
 }
 
 a:visited {
   /* visited link */
-  color: #05676e;
+  color: var(--link-visited-color);
 }
 
 a:hover,
@@ -41,38 +57,10 @@ a:focus {
 
 a:active {
   /* selected link */
-  color: #489c79;
+  color: var(--link-active-color);
 }
 
-button {
-  /* overwrites browser defaults and resets the border */
-  border: none;
-  display: inline-block;
-
-  /* takes the font from the outer container */
-  font-family: inherit;
-
-  /* styles the background color, font color, and text decoration (underline, etc.) of the button */
-  background-color: #357b70;
-  color: #fff;
-  text-decoration: none;
-
-  /* adds spacing to the button (this will be discussed more in-depth later) */
-  padding: 10px;
-  border-radius: 3px;
-
-  /* gives the button a bottom border with a width of 2px, a type of solid, and a color in RGBA format */
-  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
-  -webkit-transition-duration: 0.2s;
-  -o-transition-duration: 0.2s;
-  transition-duration: 0.2s;
-  -webkit-transition-property: opacity;
-  -o-transition-property: opacity;
-  transition-property: opacity;
-
-  /* also can be combined to be transition: opacity 0.2s; */
-}
-
+button,
 .button {
   /* overwrites browser defaults and resets the border */
   border: none;
@@ -82,8 +70,8 @@ button {
   font-family: inherit;
 
   /* styles the background color, font color, and text decoration (underline, etc.) of the button */
-  background-color: #357b70;
-  color: #fff;
+  background-color: var(--primary-color);
+  color: var(--text-color);
   text-decoration: none;
 
   /* adds spacing to the button (this will be discussed more in-depth later) */
@@ -93,10 +81,8 @@ button {
   /* gives the button a bottom border with a width of 2px, a type of solid, and a color in RGBA format */
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
   -webkit-transition-duration: 0.2s;
-  -o-transition-duration: 0.2s;
   transition-duration: 0.2s;
   -webkit-transition-property: opacity;
-  -o-transition-property: opacity;
   transition-property: opacity;
 
   /* also can be combined to be transition: opacity 0.2s; */
@@ -114,9 +100,9 @@ button:focus,
 }
 
 /* .button__secondary {
-    background-color: #e0b354;
-    color: #2b2b2b;
-  } */
+  background-color: #e0b354;
+  color: #2b2b2b;
+} */
 
 .navigation-list__item--active {
   text-decoration: none;
@@ -142,12 +128,12 @@ button:focus,
 }
 
 .profile {
-  max-width: 700px;
+  max-width: var(--max-width);
   margin: 0 auto;
 }
 
 .profile2 {
-  max-width: 700px;
+  max-width: var(--max-width);
   margin: 0 auto;
   text-align: center;
 }
@@ -161,6 +147,8 @@ button:focus,
   -ms-flex-direction: column;
   flex-direction: column;
   text-align: center;
+  -ms-flex-line-pack: space-evenly;
+  align-content: space-evenly;
 }
 
 svg {
@@ -232,7 +220,7 @@ svg {
   }
 
   .grid__item {
-    background-color: #d3d3d3;
+    background-color: var(--grid-background-color);
     width: auto;
     min-height: auto;
     margin: 0;
@@ -278,57 +266,57 @@ svg {
 
 @-webkit-keyframes color-change {
   0% {
-    fill: #b8d2ef;
+    fill: var(--color-change-0);
   }
 
   50% {
-    fill: #fcffad;
+    fill: var(--color-change-50);
   }
 
   100% {
-    fill: #f76414;
+    fill: var(--color-change-100);
   }
 }
 
 @keyframes color-change {
   0% {
-    fill: #b8d2ef;
+    fill: var(--color-change-0);
   }
 
   50% {
-    fill: #fcffad;
+    fill: var(--color-change-50);
   }
 
   100% {
-    fill: #f76414;
+    fill: var(--color-change-100);
   }
 }
 
 @-webkit-keyframes color-change2 {
   0% {
-    fill: #fbff99;
+    fill: var(--color-change2-0);
   }
 
   50% {
-    fill: #f6a522;
+    fill: var(--color-change2-50);
   }
 
   100% {
-    fill: #b8d2ef;
+    fill: var(--color-change2-100);
   }
 }
 
 @keyframes color-change2 {
   0% {
-    fill: #fbff99;
+    fill: var(--color-change2-0);
   }
 
   50% {
-    fill: #f6a522;
+    fill: var(--color-change2-50);
   }
 
   100% {
-    fill: #b8d2ef;
+    fill: var(--color-change2-100);
   }
 }
 
