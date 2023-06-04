@@ -165,6 +165,12 @@ svg {
   margin: 0 auto;
 }
 
+#grad {
+  height: 100%;
+  background-image: linear-gradient(rgba(54, 65, 115, 0), rgba(54, 65, 115, 1));
+  background-attachment: fixed;
+}
+
 .page-header__item {
   flex: 0 1 200px;
 }
