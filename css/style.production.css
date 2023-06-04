@@ -211,6 +211,13 @@ svg {
   margin: 0 auto;
 }
 
+#grad {
+  height: 100%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 255, 0)), to(rgba(0, 0, 255, 1)));
+  background-image: linear-gradient(rgba(54, 65, 115, 0), rgba(54, 65, 115, 1));
+  background-attachment: fixed;
+}
+
 .page-header__item {
   -webkit-box-flex: 0;
   -ms-flex: 0 1 200px;
