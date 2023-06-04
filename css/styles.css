@@ -127,8 +127,8 @@ button:focus,
 
 .profile2 {
   max-width: var(--max-width);
-  margin: 0 auto;
   text-align: center;
+  margin: 0 auto;
 }
 
 .table {
@@ -158,7 +158,11 @@ svg {
 }
 
 #contact-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
   text-align: center;
+  margin: 0 auto;
 }
 
 .page-header__item {
