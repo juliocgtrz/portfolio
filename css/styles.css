@@ -135,7 +135,8 @@ button:focus,
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding: 50px;
+  max-width: var(--max-width);
+  margin: 0 auto;
 }
 
 svg {
