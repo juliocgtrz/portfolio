@@ -135,7 +135,7 @@ button:focus,
   display: flex;
   flex-direction: column;
   text-align: center;
-  align-content: space-evenly;
+  padding: 50px;
 }
 
 svg {
