@@ -260,6 +260,10 @@ svg {
     width: 50%;
     margin: 0 auto;
   }
+
+  svg {
+    width: 300px;
+  }
 }
 
 @keyframes color-change {
