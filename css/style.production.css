@@ -268,13 +268,10 @@ svg {
     margin: 0;
   }
 
-  .grid__item:last-child {
-    -ms-grid-column: 3;
+  /* .grid__item:last-child {
     grid-column: 3 / 3;
-    -ms-grid-row: 1;
-    -ms-grid-row-span: 2;
     grid-row: 1 / 3;
-  }
+  } */
 }
 
 @media all and (max-width: 500px) {
@@ -306,11 +303,11 @@ svg {
   }
 }
 
-@media all and (min-width: 320px) and (max-width: 750px) {
+@media all and (max-width: 375px) {
   .profile__portrait {
     float: left;
     width: 50%;
-    margin-right: 20px;
+    margin-right: 40px;
     border-radius: 50%;
   }
 
