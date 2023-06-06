@@ -251,13 +251,13 @@ svg {
 @media all and (max-width: 375px) {
   .profile__portrait {
     float: left;
-    width: 50%;
+    width: 200px;
     margin-right: 40px;
     border-radius: 50%;
   }
 
   .profile {
-    width: 50%;
+    width: 500px;
     margin: 0 auto;
   }
 }
