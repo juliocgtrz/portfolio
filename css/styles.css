@@ -131,7 +131,7 @@ button:focus,
   margin: 0 auto;
 }
 
-.skills-list {
+.skills-list li {
   list-style-type: none;
   display: flex;
   flex-direction: column;
