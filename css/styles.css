@@ -133,11 +133,9 @@ button:focus,
 
 .skills-list_item {
   list-style-type: none;
-
-  /* display: flex;
-  flex-direction: column; */
-  float: left;
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  columns: 2;
   padding: 0;
 }
 
