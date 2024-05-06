@@ -172,12 +172,6 @@ svg {
   background-attachment: fixed;
 }
 
-#project1 {
-  background: url(/img/PokedexApp.jpg) no-repeat;
-  height: 100%;
-  width: 100%;
-}
-
 .page-header__item {
   flex: 0 1 200px;
 }
@@ -216,7 +210,7 @@ svg {
   }
 
   .grid__item {
-    /* background-color: var(--grid-background-color); */
+    background-color: var(--grid-background-color);
     width: auto;
     min-height: auto;
     margin: 0;
