@@ -165,6 +165,7 @@ button:focus,
 }
 
 .skills-list {
+  list-style-type: none;
   display: flex;
   padding: 0;
 }
