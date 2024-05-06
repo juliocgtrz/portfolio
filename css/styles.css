@@ -132,13 +132,14 @@ button:focus,
 }
 
 .skills-list_item {
-  list-style-type: none;
+  /* list-style-type: none;
   display: flex;
-  flex-direction: column;
+  flex-direction: column; */
   columns: 2;
   -webkit-columns: 2;
   -moz-columns: 2;
-  padding: 0;
+
+  /* padding: 0; */
 }
 
 svg {
