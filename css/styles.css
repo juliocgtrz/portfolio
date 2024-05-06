@@ -136,6 +136,8 @@ button:focus,
   display: flex;
   flex-direction: column;
   columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
   padding: 0;
 }
 
