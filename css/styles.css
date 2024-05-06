@@ -131,20 +131,6 @@ button:focus,
   margin: 0 auto;
 }
 
-.skills-list {
-  display: flex;
-  padding: 0;
-}
-
-.skills-list_item {
-  /* list-style-type: none;
-  display: inline-flex;
-  flex-direction: column; */
-  flex: auto;
-
-  /* padding: 0; */
-}
-
 svg {
   width: 700px;
 }
