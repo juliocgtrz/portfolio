@@ -267,7 +267,6 @@ svg {
   }
 
   .skills-list_item {
-    flex-wrap: wrap;
     flex-basis: 50%;
   }
 }
