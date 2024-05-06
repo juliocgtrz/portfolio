@@ -216,7 +216,7 @@ svg {
   }
 
   .grid__item {
-    background-color: var(--grid-background-color);
+    /* background-color: var(--grid-background-color); */
     width: auto;
     min-height: auto;
     margin: 0;
