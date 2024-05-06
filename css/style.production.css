@@ -165,7 +165,6 @@ button:focus,
 }
 
 .skills-list {
-  /* list-style-type: none; */
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -173,12 +172,7 @@ button:focus,
 }
 
 .skills-list_item {
-  /* list-style-type: none;
-  display: inline-flex;
-  flex-direction: column; */
   flex: auto;
-
-  /* padding: 0; */
 }
 
 .table {
