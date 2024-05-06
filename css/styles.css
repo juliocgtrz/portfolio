@@ -132,12 +132,10 @@ button:focus,
 }
 
 .skills-list_item {
-  /* list-style-type: none;
+  list-style-type: none;
   display: flex;
-  flex-direction: column; */
-  columns: 2;
-  -webkit-columns: 2;
-  -moz-columns: 2;
+  flex-direction: column;
+  flex: auto;
 
   /* padding: 0; */
 }
@@ -266,6 +264,11 @@ svg {
 
   svg {
     width: 300px;
+  }
+
+  .skills-list_item {
+    flex-wrap: wrap;
+    flex-basis: 50%;
   }
 }
 
