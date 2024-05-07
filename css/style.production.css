@@ -251,13 +251,14 @@ svg {
   margin-left: 15px;
 }
 
-/* start grid fallback */
 .grid__item {
   display: inline-block;
   width: 33%;
 }
 
-/* end grid fallback */
+.grid__item__image {
+  width: 33%;
+}
 
 @supports (display: grid) {
   .grid {
