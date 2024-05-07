@@ -257,7 +257,7 @@ svg {
 }
 
 .grid__item__image {
-  width: 33%;
+  width: 50%;
 }
 
 @supports (display: grid) {
