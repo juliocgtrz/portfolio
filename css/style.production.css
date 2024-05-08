@@ -261,7 +261,7 @@ svg {
 }
 
 .project__link__image {
-  width: 30px;
+  width: 32px;
 }
 
 @supports (display: grid) {
