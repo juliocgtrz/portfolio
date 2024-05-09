@@ -156,7 +156,7 @@ button:focus,
 .profile {
   display: flex;
   /* flex-direction: column; */
-  flex-wrap: wrap;
+  text-wrap: wrap;
   max-width: 700px;
   margin: 0 auto;
 }
@@ -223,7 +223,6 @@ button:focus,
 
 #skillset ul {
   padding: 0;
-  column-gap: 1px;
 }
 
 .table {
