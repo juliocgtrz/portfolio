@@ -457,27 +457,6 @@ svg {
 }
 
 /* ------------- Case Study ----------- */
-.case-study {
-  padding: var(--spacing);
-}
-
-.case-study .hero-img {
-  max-width: 800 px;
-  margin: 0 auto;
-  border-radius: 6px;
-  -webkit-box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.54);
-  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.54);
-}
-
-.case-study .section {
-  padding: 0;
-}
-
-.case-study h1 {
-  width: 100%;
-  margin-top: 80px;
-}
-
 .floating-img_container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -542,4 +521,25 @@ svg {
   .floating-img_container .text-container {
     max-width: 100%;
   }
+}
+
+.case-study {
+  padding: var(--spacing);
+}
+
+.case-study .hero-img {
+  max-width: 800 px;
+  margin: 0 auto;
+  border-radius: 6px;
+  -webkit-box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.54);
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.54);
+}
+
+.case-study .section {
+  padding: 0;
+}
+
+.case-study h1 {
+  width: 100%;
+  margin-top: 80px;
 }
