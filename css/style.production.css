@@ -484,11 +484,10 @@ svg {
 }
 
 .floating-img_container img {
-  width: 100%;
+  width: 90%;
   border-radius: 6px;
   -webkit-box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.54);
   box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.54);
-  margin: 10px;
 }
 
 .floating-img_container p {
@@ -529,8 +528,7 @@ svg {
 }
 
 .case-study .hero-img {
-  max-width: 800 px;
-  margin: 0 auto;
+  width: 50%;
   border-radius: 6px;
   -webkit-box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.54);
   box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.54);
@@ -538,9 +536,11 @@ svg {
 
 .case-study .section {
   padding: 0;
+  text-align: center;
 }
 
 .case-study h1 {
   width: 100%;
   margin-top: 80px;
+  text-align: center;
 }
