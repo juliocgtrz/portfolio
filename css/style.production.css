@@ -488,6 +488,7 @@ svg {
   border-radius: 6px;
   -webkit-box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.54);
   box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.54);
+  margin: 10px;
 }
 
 .floating-img_container p {
