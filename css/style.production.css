@@ -156,7 +156,7 @@ button:focus,
 .profile {
   max-width: 700px;
   margin: 0 auto;
-  text-wrap: balance;
+  overflow: hidden;
 }
 
 .profile2 {
@@ -220,6 +220,7 @@ button:focus,
 }
 
 #skillset ul {
+  list-style-type: none;
   padding: 0;
 }
 
