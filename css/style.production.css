@@ -154,8 +154,10 @@ button:focus,
 }
 
 .profile {
+  display: flex;
   max-width: 700px;
   margin: 0 auto;
+  align-items: center;
 }
 
 .profile2 {
