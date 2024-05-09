@@ -528,11 +528,13 @@ svg {
 }
 
 .case-study .hero-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 50%;
   border-radius: 6px;
   -webkit-box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.54);
   box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.54);
-  justify-content: center;
 }
 
 .case-study .section-1 {
