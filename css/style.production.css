@@ -538,12 +538,7 @@ svg {
 }
 
 .case-study .section-1 {
-  width: 100%;
-  max-width: 1000px;
   padding: 0;
-  -webkit-box-flex: 1;
-  -ms-flex: 1 1;
-  flex: 1 1;
 }
 
 .case-study .section-2 {
