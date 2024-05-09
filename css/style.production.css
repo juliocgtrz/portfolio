@@ -167,7 +167,7 @@ button:focus,
 .skills-section {
   width: 50%;
   max-width: 700px;
-  margin: 65px auto;
+  margin: auto;
   -webkit-box-flex: 1;
   -ms-flex: 1 1;
   flex: 1 1;
