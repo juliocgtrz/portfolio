@@ -500,7 +500,7 @@ svg {
   max-width: 500px;
 }
 
-.floating-img_container .txt-container {
+.floating-img_container .text-container {
   max-width: 500px;
 }
 
@@ -539,7 +539,7 @@ svg {
     text-align: center;
   }
 
-  .floating-img_container .txt-container {
+  .floating-img_container .text-container {
     max-width: 100%;
   }
 }
