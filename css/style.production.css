@@ -316,6 +316,10 @@ svg {
   width: 33px;
 }
 
+.social__link__image {
+  width: 30px;
+}
+
 @supports (display: grid) {
   .grid {
     display: -ms-grid;
